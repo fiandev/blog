@@ -2,10 +2,10 @@
 require __DIR__."/functions.php";
 require __DIR__."/lib/autoload.php";
 /* ====== Database ====== */
-$host = "sql6.freesqldatabase.com";
-$user = "sql6492588";
-$pass = "rxrfKU4cu2";
-$database = "sql6492588";
+$host = "localhost";
+$user = "root";
+$pass = "root";
+$database = "blog";
 $db = new Connection($host, $user, $pass, $database);
 $conn = $db->connect();
 /* ========== page config ============ */
@@ -17,6 +17,6 @@ $iconBlog = $page->getIconUrl();
 $brand = $page->getTitle();
 $page->setDesc("$brand adalah website blog yang berisi informasi mengenai bidang teknologi dan materi pemerograman dasar, informasi update sosial media dan berbagai informasi menarik lainnya");
 $blogDesc = $page->getDesc();
-$blogOwner = "Ryuudev";
+$blogOwner = "Fian";
 $blogKeyword = $page->getKeyword();
 /* ========== */
