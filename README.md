@@ -14,15 +14,6 @@ sebuah program blog sederhana dengan admin dashboard
 * [fontawesome](https://fontawesome.com)
 * [sweetalert2](https://sweetalert2.github.io)
 
-### alat yang digunakan saat pembuatan
-
-* handphone (Android 10)
-* code editor (Acode)
-* browser (Google Chrome)
-* Awebserver (Apache Server, database MariaDB)
-* Termux (ffmpeg)
-
-
 ### demo
 
 [lihat demo program ini](http://fian-news.herokuapp.com/)
