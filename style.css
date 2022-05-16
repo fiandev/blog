@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --lightBlue: #00b6e4;
+}
+/* mobile */
+@media (max-width: 575.98px) {
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: between;
+    align-items: center;
+    background-color: var(--lightBlue);
+  }
+  nav h1 {
+    font-size: .8rem;
+  }
+  nav .burger-menu {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border: solid 1px;
+  }
+}

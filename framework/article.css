@@ -1,0 +1,142 @@
+/* mobile */
+.title, .desc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal;
+}
+.article .content .hero {
+  border: solid .1px var(--white);
+  box-shadow: 0 0 2px 1px var(--blue);
+}
+@media (max-width: 575.98px) {
+  .article .header {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .article .header .page-info {
+    display: flex;
+    font-size: .6rem;
+    align-items: center;
+  }
+  .article .header .page-info a {
+    color: var(--blue);
+  }
+  .article .header .page-info i {
+    color: var(--blue);
+    margin: 0 2%;
+  }
+  .article .header .page-info a:last-child {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-align: left;
+  }
+  .article .header .title {
+    color: var(--blue);
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  .article .header .writer {
+    font-size: .9rem;
+    color: var(--black);
+  }
+  .article .header .writer a {
+    color: var(--blue);
+  }
+  .article .header .date {
+    color: var(--grey);
+    font-size: .8rem;
+  }
+  .article .content .hero {
+    width: 100%;
+    height: 25vh;
+    padding: 0 1%;
+    margin: 10px 0;
+    border-radius: 20px;
+  }
+  .article .content {
+    position: relative;
+    min-height: 60vh;
+  }
+  .article .content p {
+    font-size: 1rem;
+  }
+  .article .content .insert-image {
+    width: 100%;
+    height: 25vh;
+    display: block;
+  }
+  
+}
+/* desktop */
+@media (min-width: 576px) {
+  .article {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2%;
+  }
+  .article .header {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .article .header .page-info {
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .article .header .page-info a {
+    color: var(--blue);
+  }
+  .article .header .page-info i {
+    color: var(--blue);
+    margin: 0 2%;
+  }
+  .article .header .page-info a:last-child {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-align: left;
+  }
+  .article .header .title {
+    color: var(--blue);
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  .article .header .writer {
+    font-size: .9rem;
+    color: var(--black);
+  }
+  .article .header .writer a {
+    color: var(--blue);
+  }
+  .article .header .date {
+    color: var(--grey);
+    font-size: .8rem;
+  }
+  .article .content .hero {
+    width: 100%;
+    height: 250px;
+    padding: 0 1%;
+    margin: 10px 0;
+    border-radius: 20px;
+  }
+  .article .content {
+    position: relative;
+    min-height: calc(50vh + 40vh);
+  }
+  .article .content p {
+    font-size: .6rem;
+  }
+  .article .content .insert-image {
+    width: 40%;
+    max-height: 40vh;
+    display: block;
+  }
+}
